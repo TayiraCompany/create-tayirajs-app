@@ -24,5 +24,9 @@
     const installedDeps = runCommand(installDepsCommand);
     if(!installedDeps) process.exit(-1);
 
-    console.log("Congratulations! You are ready, Follow the folloing commands to start");
+    console.log("Congratulations! You are ready, Follow Commands");
+    console.log("For Frontend");
     console.log(`cd ${repoName} && npm run dev`);
+    console.log("For Backend");
+    console.log("npm install -g nodemon");
+    console.log(`cd ${repoName}/node-server && nodemon`);
