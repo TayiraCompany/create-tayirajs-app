@@ -1,6 +1,6 @@
 {
   "name": "create-tayirajs-app",
-  "version": "0.1.4",
+  "version": "1.0.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -45,10 +45,10 @@
     ]
   },
   "bin": "./bin/cli.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TayiraCompany/create-tayirajs-app.git"
-  },
+  "publishConfig": {
+	  "registry": "https://registry.npmjs.org"
+   },
+   "repository":"https://github.com/TayiraCompany/create-tayirajs-app",
   "browserslist": {
     "production": [
       ">0.2%",
