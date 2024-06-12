@@ -1,0 +1,22 @@
+
+
+.container {
+    background-color: #e5e5ff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333399;
+}
+
+.description {
+    font-size: 18px;
+    color: #666;
+}

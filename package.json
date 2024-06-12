@@ -1,6 +1,6 @@
 {
   "name": "create-tayirajs-app",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +11,7 @@
     "framer-motion": "^11.2.10",
     "grommet": "^2.38.0",
     "i18next": "^23.11.5",
+    "plugins": "github:TayiraCompany/tayirajs-plugins",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.3.1",
@@ -26,14 +27,16 @@
     "redux": "^5.0.1",
     "style-components": "^0.1.0",
     "styled-components": "^6.1.11",
+    "tayirajs-plugins": "github:TayiraCompany/tayirajs-plugins",
+    "tayirajs-scripts": "github:TayiraCompany/tayirajs-scripts",
     "web-vitals": "^2.1.4",
-    "zefor": "^1.0.0"
+    "zefor": "^1.1.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "tayirajs-scripts start",
+    "build": "tayirajs-scripts build",
+    "test": "tayirajs-scripts test",
+    "eject": "tayirajs-scripts eject"
   },
   "eslintConfig": {
     "extends": [
