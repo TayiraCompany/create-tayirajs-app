@@ -1,8 +1,10 @@
 # Getting Started with Create TayiraJs App
 
-## Available Scripts
+## Setup script:
 
-In the project directory, you can run:
+npx create-tayirajs-app my-app
+
+## Available Scripts
 
 ### `npm run dev`
 
