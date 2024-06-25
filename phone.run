@@ -1,0 +1,9 @@
+# build App / npm run build
+# Make App / npx cap copy
+
+
+# Open Android App
+- npx cap open android
+
+# Open IOS App
+- npx cap open ios

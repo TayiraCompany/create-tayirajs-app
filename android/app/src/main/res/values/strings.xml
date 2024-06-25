@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TayiraJS</string>
+    <string name="title_activity_main">TayiraJS</string>
+    <string name="package_name">com.example.tayirajs</string>
+    <string name="custom_url_scheme">com.example.tayirajs</string>
+</resources>

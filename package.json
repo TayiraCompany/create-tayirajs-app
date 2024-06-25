@@ -2,6 +2,11 @@
   "name": "create-tayirajs-app",
   "version": "1.0.3",
   "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/cli": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/push-notifications": "^6.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,13 +43,16 @@
     "tayirajs-plugins": "github:TayiraCompany/tayirajs-plugins",
     "tayirajs-scripts": "github:TayiraCompany/tayirajs-scripts",
     "web-vitals": "^2.1.4",
+    "workbox-webpack-plugin": "^7.1.0",
     "zefor": "^1.1.0"
   },
   "scripts": {
     "dev": "tayirajs-scripts start",
     "build": "tayirajs-scripts build",
     "test": "tayirajs-scripts test",
-    "eject": "tayirajs-scripts eject"
+    "eject": "tayirajs-scripts eject",
+    "android:emulator": "npx cap open android",
+    "ios:emulator": "npx cap open ios"
   },
   "eslintConfig": {
     "extends": [

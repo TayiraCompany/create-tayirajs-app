@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
@@ -21,13 +22,62 @@
   <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ccxt/4.3.51/ccxt.browser.min.js"
+    integrity="sha512-pW9Hu8WK79gyX3NAh4bATXqB7Nn//T9WIESi/iU98YXYuMdmYRF4gF1sXTka7g/WmvtNt+TddqEF2g9qXeARBQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobx-react/9.1.1/mobxreact.umd.production.min.js"
+    integrity="sha512-Ie9t4hlyrskuvSMg8iSV+vrRXzZbQQohx4EmNoK4foZQqkvjlBIXQXb20rPm2TcJ74WejjJZorMjsh1d8baczg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Optional Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@sentry/browser@8.9.2/cjs/index.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.165.0/three.module.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"
+    integrity="sha512-6a80OTZVmEJhqYJUmYd5z8yHUCDlYnj6q9XwB/gKOEyNQV/Q8u+XeSG59a2ZKFEHGTYzgfOQKYEBtrZV7vBr+Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"
+    integrity="sha512-35L3EFHQcGaTZ6QN9wAg9iK1hTPVCn8RGsscuXjm5JdmDRyOw+/IWJ4wavGkozQ8VDoddD7nV1psHgu/BYNpxQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+    integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.8.3/angular-sanitize.min.js"
+    integrity="sha512-dqbRITjlgYAKHWHwL8fK7VPOsFc702ybywomtYLRcjOzBHM3WgEGN0SQQR6IJKY4ZiJiZkNguOAcFZmalk+2sA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.8.3/angular-messages.min.js"
+    integrity="sha512-a+xgEyXVK7r+KKIDYyHtFfLi9LItmFDff6Z4/5lrGmL03u1vtFCjQXQz3dSIwOapB3YIRMBO1+IQj6ptnxAh/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.8.3/angular-resource.min.js"
+    integrity="sha512-+ymw+FkoDhPw+7/1DWVtASoICv7lwuvpkbVFqc4ASu1D385wKiLHu4ofOOxhpTlWoza/yIivwwteembPbeBuMg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"
+    integrity="sha512-KZmyTq3PLx9EZl0RHShHQuXtrvdJ+m35tuOiwlcZfs/rE7NZv29ygNA8SFCkMXTnYZQK2OX0Gm2qKGfvWEtRXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.14/index.js"
+    integrity="sha512-RdkbzvazPmA/7wluniHv6qMMq0NCPYtamJEfmNqNmy6adlSp9HlESpu9jcTKSWjV56ZKvuQvqIAjxnbXWFYTHQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.25/fullpage.min.js"
+    integrity="sha512-rc+ezQrlvTWQ1bOJtmCN7Fm/GyfhIBX9eOZhbQ7BtSpnG8SgrafIjsl0jWh0a/zLsLj8wbzv2+vkAyZtYn7xwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Performance Enhancement Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/serviceworker-webpack-plugin@0.5.1/sw.min.js" defer></script>
 
@@ -38,7 +88,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
   <div id="AppRoot"></div>
 </body>
+
 </html>

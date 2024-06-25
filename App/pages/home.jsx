@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
-const Home = () => {
+const Home = () =>{
     const [showPage, setShowPage] = useState(false);
     const { t, i18n } = useTranslation();
 
@@ -41,7 +41,7 @@ const Home = () => {
                     <h1 className="text-2xl font-bold mb-4">{t('Created At')} {new Date().toLocaleString()}</h1>
                     <ul className="list-disc list-inside">
                         <li>1: {t('Open your editor')}</li>
-                        <li>2: {t('Start editing in')} <code>src/app/home.jsx</code></li>
+                        <li>2: {t('Start editing in')} <code>App/pages/home.jsx</code></li>
                     </ul>
                     <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" onClick={handlecStartClick}>{t('OK!')}</button>
                 </motion.div>
