@@ -3,9 +3,13 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+const $AllowOrigins = [
+  'http://localhost:8080'
+]
+
 app.use(cors(
     {
-        origin: 'http://localhost:3000',
+        origin: $AllowOrigins,
         credentials: true,
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type', 'Authorization'],

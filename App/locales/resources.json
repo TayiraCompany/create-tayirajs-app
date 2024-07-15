@@ -1,0 +1,40 @@
+{
+    "en": {
+        "translation": {
+            "Welcome to TayiraJs": "Welcome to TayiraJs",
+            "This is Simple Page for Application.": "This is Simple Page for Application.",
+            "Get Start": "Get Start",
+            "Translate (ar)": "Translate (عربي)",
+            "Created At": "Created At",
+            "Open your editor": "Open your editor",
+            "Start editing in": "Start editing in",
+            "OK!": "OK",
+            "Translate (en)": "Translate (en)",
+            "AM": "AM",
+            "PM": "PM",
+            "Your Current Language is en": "Your Current Language is (English)",
+            "Connection Status": "Connection Status:",
+            "Offline": "Offline",
+            "Online": "Online"
+        }
+    },
+    "ar": {
+        "translation": {
+            "Welcome to TayiraJs": "مرحبًا بك في TayiraJs",
+            "This is Simple Page for Application.": "هذه صفحة بسيطة للتطبيق",
+            "Get Start": "البدء",
+            "Translate (ar)": "ترجمة (English)",
+            "Created At": "انشأ في",
+            "Open your editor": "افتح محررك",
+            "Start editing in": "ابدأ التحرير في",
+            "OK!": "تم",
+            "Translate (en)": "ترجمة (English)",
+            "AM": "صباحأ",
+            "PM": "مساء",
+            "Your Current Language is ar": "لغتك الحالية هي (العربية)",
+            "Connection Status": "حالة الاتصال:",
+            "Offline": "غير متصل",
+            "Online": "متصل"
+        }
+    }
+}
